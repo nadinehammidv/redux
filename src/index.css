@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+ 
+}
+.to-do-list {
+  background-color: rgb(238, 233, 227);
+  width: 80%;
+  min-height: 60 vh;
+  border-radius: 15 px;
+}
+h1 {
+  color: rgb(16, 16, 230);
+}
+.task-item {
+  background-color: aliceblue;
+  width: 50%;
+  margin: 15px auto;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icons-box {
+  border: 1px black;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+.icon:hover {
+  color: aqua;
+  
+}
